@@ -1,0 +1,268 @@
+
+body {
+    background-color: rgb(207, 207, 252);
+    margin: 0;
+}
+
+.head1{
+
+    background-color:mediumturquoise;
+    padding: 5px;
+    text-align: center;
+    font-size: 12px;
+    font-family: Verdana, sans-serif;
+}
+
+#switch{
+
+    background-color:cornflowerblue;
+    padding: 2%;
+    color:azure;
+    font-size: 18px;
+    font-family: Verdana, sans-serif;
+    margin-left: 16%;
+    margin-right: 2%;
+    margin-top: 3%;
+    width: 20%;
+    display:inline-block;
+    border-radius: 10px;
+}
+
+#host{
+
+    background-color:deepskyblue;
+    padding: 2%;
+    color:azure;
+    font-size: 18px;
+    font-family: Verdana, sans-serif;
+    margin-top: 3%;
+    width: 20%;
+    display:inline-block;
+    border-radius: 10px;
+}
+
+#link{
+
+    background-color:lightskyblue;
+    padding: 2%;
+    color:azure;
+    font-size: 18px;
+    font-family: Verdana, sans-serif;
+    margin-left: 2%;
+    margin-top: 3%;
+    width: 20%;
+    display:inline-block;
+    border-radius: 10px;
+}
+
+.number{   
+    text-align: right;
+    margin-left:70%;
+    display:inline;
+}
+
+.numberswitch{  
+    text-align: right;
+    margin:65%;
+    display:inline; 
+}
+
+img{
+    height: 20%;
+    width: 20%;
+}
+
+#container{
+
+    min-width: 55%;
+    max-width: 60%;
+    margin-left: 24%;
+    height: 700px;
+    border-radius: 10px;
+    border: 8px;
+    border-style: solid;
+    background-color: #d5fbfb;
+    border-color: deepskyblue;
+}
+
+#topology{
+
+    margin-top:4%;
+    margin-left:24%;
+    color:#003d99; 
+    font-size: 20px;    
+}
+
+table {
+    
+    width: 85%;
+    margin-left:12%;
+    border: 1px solid;
+    border-collapse: collapse;
+    font-size:14px;
+}
+  
+th, td {
+    text-align: left;
+    padding: 3px;
+    border: 1px solid cornflowerblue;
+    border-collapse: collapse;
+}
+  
+tr:nth-child(even){background-color: #d2f2f9}
+  
+th {
+    background-color: deepskyblue;
+    color: white;
+}
+
+.flow_table{
+
+    margin-left:12%; 
+    color:#003d99; 
+    font-size: 20px;
+}
+
+.popup {
+     /*nasconde la finestra se non si seleziona un link*/
+    display: none;
+    /*serve per fissare la finestra all+interno del dive della rete*/
+    position: fixed;
+    margin-top:10%;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50%;
+    z-index: 9999;
+    overflow: auto;
+    /*serve per consentire agli eventi del mouse di passare attraverso il div che si apre,
+    altrimenti non si riuscirebbe a chiudere il div*/
+    pointer-events: none;    
+}
+
+.popup-content {
+    background-color: #fff;
+    margin: 10% auto;
+    margin-left:28%;
+    padding: 15px;
+    border: 2px solid cornflowerblue;
+    border-radius: 5px;
+    width: 52%;
+    box-shadow: 0px 0px 10px deepskyblue;
+    position: relative;
+}
+
+#table_host_switch{
+   
+    width: 45%;
+    margin-left:0;
+    border: 1px solid;
+    border-collapse: collapse;
+    font-size:14px;
+}
+
+#table_host_switch1{
+   
+    width: 35%;
+    margin-left:0;
+    border: 1px solid;
+    border-collapse: collapse;
+    font-size:12px;
+}
+
+#table_switch_flow{
+   
+    width: 100%;
+    margin-left:0;
+    border: 1px solid;
+    border-collapse: collapse;
+    font-size:14px;
+}
+
+.navbar {
+    height: 138%;
+    width: 9%;
+    position: absolute;
+    z-index: 1;
+    border-right: 1px solid deepskyblue;
+    left: 0;
+    background-color:rgb(207, 207, 252);
+    overflow-x: hidden;
+    display: inline-block;
+}
+  
+.navbar a {
+
+    padding:  8px 4px 16px;
+    text-decoration: none;
+    font-size: 14px;
+    border-bottom: 1px solid deepskyblue;
+    display: block;
+    color: #003d99;
+}
+  
+.navbar a:hover {
+    color: cornflowerblue;
+}
+  
+.navbar img {
+    padding:  8px 1px 0px;
+    display: inline-block;
+}
+
+#topology1{
+
+    margin-left:30px;
+}
+
+#monitoring{
+
+    margin-left:25px;
+}
+
+
+form {
+
+    margin-top: 3%;
+    font-size:18px;
+}
+
+input {
+
+    background-color: #d5fbfb;
+    border-radius:5px;
+    font-size: 16px; 
+    width: 150px; 
+    padding: 10px; 
+    border: 2px solid deepskyblue;
+    cursor:pointer;
+}
+
+#insert{
+
+    margin-left:16%;
+}
+
+#insert1{
+
+    margin-left:24%;
+}
+
+#check{
+
+    margin-left:24%;
+    color:rgb(231, 98, 98);
+}
+
+button {
+
+    background-color: cornflowerblue;
+    color:white;
+    border-radius:5px;
+    font-size: 16px; 
+    width: 200px; 
+    padding: 10px; 
+    border: 2px solid blueviolet;
+    margin-left:2%;
+    cursor:pointer; 
+}
